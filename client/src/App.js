@@ -1,10 +1,14 @@
 import React, { Component } from "react";
+// import { BrowserRouter as Router} from "react-router-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+
+// import logo from "./logo.svg";
 import "./App.css";
 import NavTabs from "./NavTabs";
 import Map from "./components/Map"
 import CompetitorCard from "./components/CompetitorCard";
 import Profile from "./components/Pages/Profile"
+
 
 import Form from "./components/Form"
 
@@ -19,6 +23,7 @@ function App() {
       </div>
     </Router>
   );
+
 }
 
 export default App;
