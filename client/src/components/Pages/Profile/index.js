@@ -1,9 +1,12 @@
 import React, { Component } from "react";
-import Form from "../../Form";
+//import Form from "./components/Form";
+
 
 function Profile()  {
     return (
-        <Form />
+        <div>
+        <h1> Update your info here: </h1>
+        </div>
     );
 }
 
