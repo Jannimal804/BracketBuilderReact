@@ -5,6 +5,15 @@ module.exports = function(sequelize, DataTypes) {
             primaryKey: true,
             autoIncrement: true
         },
+        email: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            allowDuplicates: false        
+        },
+        password: {
+            type: DataTypes.STRING,
+            allowNull: false    
+        },
         first_name: {
             type: DataTypes.STRING,
             allowNull: false

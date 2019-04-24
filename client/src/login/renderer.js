@@ -21,12 +21,12 @@ export default class Login extends React.Component {
             <div className="root-container">
 
                 <div className="box-controller">
-                <div className={"controller" + (this.state.isLoginOpen ? "selected-controller" : "")} 
+                <div id="login" className={(this.state.isLoginOpen ? "selected-controller" : "")} 
                     onClick={this.showLoginBox.bind(this)}>
                     Login
                     </div>
                     
-                    <div className={"controller" + (this.state.isRegisterOpen ? "selected-controller" : "")} 
+                    <div id="Register" className={(this.state.isRegisterOpen ? "selected-controller" : "")} 
                     onClick={this.showRegisterBox.bind(this)}>
                     Register
                     </div>
