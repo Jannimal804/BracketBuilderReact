@@ -1,5 +1,8 @@
 import React, { Component } from "react";
+// import { BrowserRouter as Router} from "react-router-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+
+// import logo from "./logo.svg";
 import "./App.css";
 import NavTabs from "./NavTabs";
 import Map from "./components/Map";
@@ -9,6 +12,9 @@ import Profile from "./components/Pages/Profile";
 import Form from "./components/Form";
 import CompetitorList from "./components/competitorlist"
 //import Detail from "./components/Detail"i
+import Login from "./login/renderer";
+import Calendar from "./calendar/calrenderer";
+
 
 // const Title = styled.h1`
 //   color: #fff;

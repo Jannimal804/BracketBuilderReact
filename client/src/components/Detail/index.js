@@ -12,7 +12,7 @@
 //   // e.g. localhost:3000/books/599dcb67f0f16317844583fc
 //   componentDidMount() {
 //     API.getCompetitor(this.props.match.params.id)
-//       .then(res => this.setState({ book: res.data }))
+//       .then(res => this.setStateompetitor: res.data }))
 //       .catch(err => console.log(err));
 //   }
 
@@ -29,23 +29,3 @@
 //           </Col>
 //         </Row>
 //         <Row>
-//           <Col size="md-10 md-offset-1">
-//             <article>
-//               <h1>Synopsis</h1>
-//               <p>
-//                 {this.state.competitor.synopsis}
-//               </p>
-//             </article>
-//           </Col>
-//         </Row>
-//         <Row>
-//           <Col size="md-2">
-//             <Link to="/">← Back to Competitors</Link>
-//           </Col>
-//         </Row>
-//       </Container>
-//     );
-//   }
-// }
-
-// export default Detail;
