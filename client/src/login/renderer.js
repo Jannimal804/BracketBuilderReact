@@ -1,5 +1,6 @@
 import React from "react";
 import reactDom from "react-dom";
+
 import "./loginSty.css";
 
 export default class Login extends React.Component {
@@ -101,4 +102,4 @@ class RegisterBox extends  React.Component {
     }
 }
 
-    reactDom.render(<Login />, document.getElementById("root"));
+ reactDom.render(<Login />, document.getElementById("root"));
