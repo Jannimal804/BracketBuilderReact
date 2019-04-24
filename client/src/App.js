@@ -54,6 +54,8 @@ function App() {
         <Route exact path="/gyms" component={Map} />
         <Route exact path="/competitors" component={CompetitorCard} />
         <Route exact path="/profile" component={Profile} />
+        <Route exact path="/login" component={Login} />
+        <Route path = "/calendar" component = {Calendar} />
         <Route exact path="/form" component={Form} />
       </div>
     </Router>
