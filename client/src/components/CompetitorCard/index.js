@@ -1,31 +1,29 @@
-import React, { Component } from 'react';
-import "./style.css";
+// import React, { Component } from 'react';
+// //import Card from 'react-bootstrap/Card';
+// import { Card } from 'react-bootstrap';
 
-function CompetitorCard(props) {
-    return (
-      <div className="card">
-        <div className="img-container">
-          <img alt={props.name} src={props.image} />
-        </div>
-        <div className="content">
-          <ul>
-            <li>
-              <strong>Name:</strong> {props.name}
-            </li>
-            <li>
-              <strong>Belt:</strong> {props.belt} 
-            </li>
-            <li>
-              <strong>Weight Class:</strong> {props.weight}
-            </li>
-          </ul>
-        </div>
-        <span onClick={() => props.removeCompetitor(props.id)} className="remove">
-          𝘅
-        </span>
-      </div>
-    );
-  }
+// import "./style.css";
+
+// <Card style={{ width: '18rem' }}>
+//   <Card.Img variant="top" src="holder.js/100px180" />
+//   <Card.Body>
+//     <Card.Title>{props.name}</Card.Title>
+//     <Card.Text>
+//      {props.beltLevel}
+//      {props.weightClass}
+//     </Card.Text>
+//     <span onClick={() => props.removeCompetitor(props.id)} className="remove">
+//     <Button variant="primary">Go somewhere</Button>
+//     </span>
+//   </Card.Body>
+// </Card>
+
+// function CompetitorCard(props) {
+//     return (
+//       <Card />
+       
+//     );
+//   }
   
-  export default CompetitorCard;
+//   export default CompetitorCard;
   
