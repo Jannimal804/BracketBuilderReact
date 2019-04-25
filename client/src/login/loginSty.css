@@ -30,8 +30,15 @@ body {
     transition: visibility 0.5s ease-out;
 }
 
-.controller {
-    flex: 1;
+#Register {
+    flex: 1 1 20em;
+    text-align: center;
+    height: 100%;
+    line-height: 2;
+    cursor: pointer;
+}
+#login {
+    flex: 1 1 20em;
     text-align: center;
     height: 100%;
     line-height: 2;
